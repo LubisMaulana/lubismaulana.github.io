@@ -322,6 +322,15 @@
     border-color : #2b3035;
     box-shadow : 0px 0px 0px 3px white;
     }
+    .myskills .skill .line-bars .line-persen-js {
+    border-top-left-radius : 10px;
+    border-bottom-left-radius : 10px;
+    border-top-style : solid;
+    width : 55%;
+    border-width : 10px;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 0px 3px white;
+    }
     .myskills .skill .line-bars .line-persen-php {
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
@@ -363,6 +372,15 @@
     border-bottom-right-radius : 10px;
     border-top-style : solid;
     width : 30%;
+    border-width : 10px;
+    border-color : white;
+    box-shadow : 0px 0px 3px 1px white;
+    }
+    .myskills .skill .line-bars .line-kosong-js {
+    border-top-right-radius : 10px;
+    border-bottom-right-radius : 10px;
+    border-top-style : solid;
+    width : 45%;
     border-width : 10px;
     border-color : white;
     box-shadow : 0px 0px 3px 1px white;
