@@ -140,7 +140,6 @@
     }
     }
     footer {
-    position: flex;
     margin-top: 5vh;
     z-index: 0;
     height: 50px;
@@ -304,41 +303,41 @@
     }
 
     .card i{
-        font-size: 13px;
+    font-size: 13px;
     }
 
     .card:nth-child(1) {
-        background-image: url('../image/bg-hobby1.jpg');
+    background-image: url('../image/bg-hobby1.jpg');
     }
 
     .card:nth-child(2) {
-        background-image: url('../image/bg-hobby2.jpg');
+    background-image: url('../image/bg-hobby2.jpg');
     }
 
     .card:nth-child(3) {
-        background-image: url('../image/bg-hobby3.jpg');
+    background-image: url('../image/bg-hobby3.jpg');
     }
 
     .card:nth-child(4) {
-        background-image: url('../image/bg-hobby4.jpg');
+    background-image: url('../image/bg-hobby4.jpg');
     }
 
     .card:nth-child(5) {
-        background-image: url('../image/bg-hobby5.jpg');
+    background-image: url('../image/bg-hobby5.jpg');
     }
 
     .card:nth-child(6) {
-        background-image: url('../image/bg-hobby6.jpg');
+    background-image: url('../image/bg-hobby6.jpg');
     }
 
     .card:nth-child(7) {
-        background-image: url('../image/bg-hobby7.jpg');
+    background-image: url('../image/bg-hobby7.jpg');
     }
 
     .card:nth-child(8) {
-        background-image: url('../image/bg-hobby8.jpg');
+    background-image: url('../image/bg-hobby8.jpg');
     }
 
     .card:nth-child(9) {
-        background-image: url('../image/bg-hobby9.jpg');
+    background-image: url('../image/bg-hobby9.jpg');
     }
