@@ -9,6 +9,7 @@
     nav > div > div > ul > li {
     padding-left : 50px;
     }
+
     main {
     width : 100%;
     }
@@ -38,7 +39,7 @@
     width : 100%;
     height : 50px;
     position : fixed;
-    z-index : 1;
+    z-index : 10;
     }
     .div-nb a.active, a:hover {
     transition : 0.5s;
@@ -230,6 +231,7 @@
     margin-top : 10px;
     font-weight : 400;
     border-radius : 6px;
+    text-align: center;
     border : #2b3035 solid 2px;
     transition : all 0.3s ease;
     }
@@ -441,6 +443,7 @@
     margin : 0 40px;
     }
     .card {
+    /* z-index: ; */
     margin : 20px;
     width : 250px;
     min-width : 200px;
@@ -482,6 +485,7 @@
     .overlay::after {
     border-radius : 0 25px 0 0;
     background-color : white;
+    z-index: 1;
     }
     .card-image {
     position : relative;
@@ -500,11 +504,12 @@
     }
     .name {
     font-size : 18px;
-    z-index: 3;
+    z-index: 1;
     font-weight : 700;
     color : #2b3035;
     }
     .description {
+    z-index: 2;
     font-size : 14px;
     color : #2b3035;
     text-align : center;
