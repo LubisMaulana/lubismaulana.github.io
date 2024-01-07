@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Font dari google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@400;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/image/foto.ico" type="image/x-icon">
 
     <title>Biodata Maulana</title>
     <style>
@@ -27,15 +30,18 @@
                 <span class="text-welcome"></span>
             </div>
             
-            <ul>
+            <ul class="m-0">
                 <li class="li-nb">
                     <a style="text-decoration:none" href="#home" class="li-nb1">Home</a>
                 </li>
                 <li class="li-nb">
-                    <a style="text-decoration:none" href="#aboutme" class="li-nb1">About Me</a>
+                    <a style="text-decoration:none" href="#aboutme" class="li-nb1">About</a>
                 </li>
                 <li class="li-nb">
                     <a style="text-decoration:none" href="#myskills" class="li-nb1">Skills</a>
+                </li>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#project" class="li-nb1">Project</a>
                 </li>
                 <li class="li-nb">
                     <a style="text-decoration:none" href="#experience" class="li-nb1">Experience</a>
@@ -65,14 +71,16 @@
                 <p class="text-1">Hai, Perkenalkan saya</p>
                 <p class="text-2"><strong>Maulana Malik Ibrahim Lubis</strong></p>
                 <p class="text-1">Dan saya adalah <span class="typing"></span></p>
-                <a style="text-decoration:none" href="https://www.instagram.com/maulanamalikiblbs/" target="_blank">My IG</a>
+                <a class="btn btn-light" href="https://www.instagram.com/maulanamalikiblbs/" target="_blank">My IG</a>
             </div>
         </section>
+
+        <div class="garis"></div>
 
         <!-- Content About Me -->
         <section class="aboutme" id="aboutme">
             <div class="heading2">
-                <h1 style="color: #2b3035;">
+                <h1 style="color: white;">
                     <strong>
                         &mdash; About Me &mdash;
                     </strong>
@@ -80,10 +88,10 @@
             </div>
             <article class="flex-container">
                 <div class="col-img">
-                    <img src="assets/image/foto.png" width="400px"/>
+                    <img src="assets/image/foto.webp" width="400px"/>
                 </div>
                 <div class="col-text">
-                    <p class="text" style="width: 90%;">
+                    <p class="text" style="width: 90%; text-align: justify;">
                         <br>Saya adalah mahasiswa di Telkom University, saya alumni SMK Telkom Medan dengan jurusan TKJ yang mempelajari 
                         jaringan dan komputer. Saya melanjutkan pendidikan di telkom university dengan mengambil jurusan informatika. 
                         Dan 6 semester telah berlalu, saya memperoleh IPK 3,64. 
@@ -92,7 +100,7 @@
                         mendapatkan nilai Try Out 1-3 besar di SD saya. Walaupun saya tidak pernah mengikuti olimpiade, saya percaya diri 
                         dengan kemampuan saya tentang angka.
                     </p>
-                    <a style="text-decoration:none" href="https://drive.google.com/file/d/1WpzqIRn_6YVjQTXRpyJchgYYcJNupyj9/view?usp=sharing" target="_blank">CV Saya</a>                    
+                    <a class="btn btn-outline-light mt-2" href="https://drive.google.com/file/d/1WpzqIRn_6YVjQTXRpyJchgYYcJNupyj9/view?usp=sharing">CV Saya</a>                    
                 </div>
             </article>
         </section>
@@ -102,7 +110,7 @@
         <!-- Content My Skills -->
         <section class="myskills" id="myskills">
             <div class="heading2">
-                <h1 style="color: white; ">
+                <h1 style="color: #2b3035;">
                     <strong>
                         &mdash; My Skills &mdash;
                     </strong>
@@ -114,7 +122,7 @@
                         HTML
                     </strong>
                     <strong style="float: right;">
-                        75%
+                        85%
                     </strong>
                 </div>
                 <div class="line-bars">
@@ -127,7 +135,7 @@
                         CSS
                     </strong>
                     <strong style="float: right;">
-                        70%
+                        80%
                     </strong>
                 </div>
                 <div class="line-bars">
@@ -140,7 +148,7 @@
                         JavaScript
                     </strong>
                     <strong style="float: right;">
-                        55%
+                        70%
                     </strong>
                 </div>
                 <div class="line-bars">
@@ -150,15 +158,15 @@
 
                 <div class="skills">
                     <strong>
-                        PHP
+                        Laravel
                     </strong>
                     <strong style="float: right;">
-                        30%
+                        60%
                     </strong>
                 </div>
                 <div class="line-bars">
-                    <div class="line-persen-php"></div>
-                    <div class="line-kosong-php"></div>
+                    <div class="line-persen-laravel"></div>
+                    <div class="line-kosong-laravel"></div>
                 </div>
 
                 <div class="skills">
@@ -191,6 +199,111 @@
 
         <div class="garis"></div>
 
+        <!-- Content my project -->
+        <section class="project" id="project">
+            <div class="heading2">
+                <h1 style="color: white; ">
+                    <strong>
+                        &mdash; My Project &mdash;
+                    </strong>
+                </h1>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide slide-project">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://kel4ium-telu.000webhostapp.com/">
+                            <div class="div-img">
+                                <img src="assets/image/tugas-ium.webp" class="d-block foto-project" alt="Web Tugas IUM">
+                            </div>
+                        </a>
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Tugas IUM</h5>
+                            <p class="text-light">Web sederhana termuat informasi tentang pishing.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://belajar-laravel1.000webhostapp.com/">
+                            <div class="div-img">
+                                <img src="assets/image/belajar-laravel1.webp" class="d-block foto-project" alt="Web Belajar Laravel 1">
+                            </div>
+                        </a>
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Belajar Laravel 1</h5>
+                            <p class="text-light">Aplikasi web manajemen data user menggunakan framework Laravel.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://kel-4-ium.000webhostapp.com/">
+                            <div class="div-img" style="background-color: #2b3035; opacity: 0.5;">
+                                <img src="assets/image/belajar-laravel2.webp" class="d-block foto-project" alt="Web Belajar Laravel 2">
+                            </div>
+                        </a>
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Belajar Laravel 2 (My-Kasir)</h5>
+                            <p class="text-light">Aplikasi web my-kasir, manajemen data barang & data belanja.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://konsul-u.000webhostapp.com/">
+                            <div class="div-img">
+                                <img src="assets/image/belajar-laravel3.webp" class="d-block foto-project" alt="Web Belajar Laravel 3">
+                            </div>
+                        </a>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Belajar Laravel 3 (Konsul-U)</h5>
+                            <p class="text-light">Aplikasi konsultasi antara dokter dan pasien melalui chat dan pertemuan onsite.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://lubismaulanamalik.github.io/">
+                            <div class="div-img">
+                                <img src="assets/image/belajar-javascript.webp" class="d-block foto-project" alt="Web Belajar JavaScript">
+                            </div>
+                        </a>
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Belajar DOM & Web Storage</h5>
+                            <p class="text-light">Aplikasi manajemen buku dengan menggunakan web storage.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://degradable-beach.000webhostapp.com/">
+                            <div class="div-img">
+                                <img src="assets/image/belajar-webpackr.webp" class="d-block foto-project" alt="Web Belajar Webpack">
+                            </div>
+                        </a>
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-light">Belajar Wenpack & Fetch</h5>
+                            <p class="text-light">Aplikasi manajemen restaurant menggunakan webpack & fetch.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <div class="garis"></div>
+
         <!-- Content Experience -->
         <section class="experience" id="experience">
             <div class="heading2">
@@ -210,7 +323,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_ccna.png" alt="CCNA" class="card-img">
+                                            <img src="assets/image/logo_ccna.webp" alt="CCNA" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -229,7 +342,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_telu.jpg" alt="Telkom University" class="card-img">
+                                            <img src="assets/image/logo_telu.webp" alt="Telkom University" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -248,7 +361,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_telu.jpg" alt="Telkom University" class="card-img">
+                                            <img src="assets/image/logo_telu.webp" alt="Telkom University" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -267,7 +380,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_telu.jpg" alt="Telkom University" class="card-img">
+                                            <img src="assets/image/logo_telu.webp" alt="Telkom University" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -286,7 +399,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_iflabs.png" alt="Informatika Labs" class="card-img">
+                                            <img src="assets/image/logo_iflabs.webp" alt="Informatika Labs" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -305,7 +418,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_iflabs.png" alt="Informatika Labs" class="card-img">
+                                            <img src="assets/image/logo_iflabs.webp" alt="Informatika Labs" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -324,7 +437,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_rumahdev.jpg" alt="Rumah Dev" class="card-img">
+                                            <img src="assets/image/logo_rumahdev.webp" alt="Rumah Dev" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -343,7 +456,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_karisma.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_karisma.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -362,7 +475,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_courser-net.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_courser.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -381,7 +494,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_dicoding.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_dicoding.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -400,7 +513,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_dicoding.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_dicoding.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -419,7 +532,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_dicoding.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_dicoding.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -438,7 +551,7 @@
                                         <span class="overlay"></span>
                             
                                         <aside class="card-image">
-                                            <img src="assets/image/logo_dicoding.png" alt="Karisma Academy" class="card-img">
+                                            <img src="assets/image/logo_dicoding.webp" alt="Karisma Academy" class="card-img">
                                         </aside>
                                     </div>
                             
@@ -477,7 +590,7 @@
 
                         <a style="text-decoration:none" href="https://wa.me/6282374399749"></a>
                             <div class="icon-c">
-                                <img src="assets/image/wa.png" width="35px" height="35px">
+                                <img src="assets/image/wa.webp" width="35px" height="35px">
                                 <div class="detail">
                                     <b style="color: rgb(44, 215, 74);">Whatsapp</b>
                                     <p>+62-823-7439-9749</p>
@@ -487,7 +600,7 @@
 
                         <a style="text-decoration:none" href="https://t.me/lbsmaul/"></a>
                             <div class="icon-c">
-                                <img src="assets/image/tele.png" width="35px" height="35px">
+                                <img src="assets/image/tele.webp" width="35px" height="35px">
                                 <div class="detail">
                                     <b style="color: rgb(41, 170, 236);">Telegram</b>
                                     <p>@Lbsmaul</p>
@@ -497,7 +610,7 @@
 
                         <a style="text-decoration:none" href="https://www.instagram.com/maulanamalikiblbs/"></a>
                             <div class="icon-c">
-                                <img src="assets/image/ig.png" width="35px" height="35px">
+                                <img src="assets/image/ig.webp" width="35px" height="35px">
                                 <div class="detail">
                                     <b style="color: rgb(246, 1, 141);">Instagram</b>
                                     <p>@maulanamalikiblbs</p>
@@ -507,7 +620,7 @@
 
                         <a style="text-decoration:none" href="mailto:maulanamlkib27@gmail.com"></a>
                             <div class="icon-c">
-                                <img src="assets/image/email.png" width="35px" height="35px">
+                                <img src="assets/image/email.webp" width="35px" height="35px">
                                 <div class="detail">
                                     <b style="color: rgb(59, 133, 237);">Email</b>
                                     <p>maulanamlkib27@gmail.com</p>
@@ -524,7 +637,6 @@
             </div>
         </section>
     </main>
-
 
     <footer>
         <p>&copy; 2023 - <a style="text-decoration:none;" href="https://github.com/lubismaulana"><strong>LubisMaulana</strong></a></p>
