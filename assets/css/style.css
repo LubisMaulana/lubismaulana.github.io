@@ -141,8 +141,8 @@
     }
     .home {
     width : 100%;
-    height : 70vh;
-    background : url("../image/bg.jpg") center no-repeat;
+    height : 90vh;
+    background : url("../image/bg.webp") center no-repeat;
     background-size : cover;
     background-attachment : fixed;
     display : flex;
@@ -165,16 +165,7 @@
     color : #2b3035;
     }
     .home-content a {
-    display : inline-block;
-    background : #2b3035;
-    color : #fff;
     font-size : 25px;
-    padding : 5px 10px;
-    margin-top : 10px;
-    font-weight : 400;
-    border-radius : 6px;
-    border : #2b3035 solid 2px;
-    transition : all 0.3s ease;
     }
     @media screen and (max-height: 610px) {
     .home {
@@ -192,12 +183,14 @@
     }
     }
     .aboutme {
+    background-color: #2b3035;
     padding-top : 5%;
     padding-bottom : 5%;
     display : flex;
     justify-content : center;
     align-items : center;
     flex-direction : column;
+    color: white;
     }
     .aboutme .flex-container {
     width : 90%;
@@ -223,17 +216,7 @@
     }
     .aboutme .flex-container a {
     width : 130px;
-    display : inline-block;
-    background : #2b3035;
-    color : #fff;
-    font-size : 25px;
-    padding : 5px 10px;
-    margin-top : 10px;
-    font-weight : 400;
-    border-radius : 6px;
-    text-align: center;
-    border : #2b3035 solid 2px;
-    transition : all 0.3s ease;
+    font-size : 20px;
     }
     @media screen and (max-width: 650px) {
     .aboutme .skill {
@@ -284,18 +267,22 @@
     }
     }
     .myskills {
-    background-color: #2b3035;
     padding-top : 5%;
     padding-bottom : 5%;
     display : flex;
     justify-content : center;
     align-items : center;
     flex-direction : column;
-    color: white;
+    color: #2b3035;
     }
     .myskills .skill {
-    max-width : 800px;
+    max-width : 1120px;
     width : 80%;
+    }
+    @media screen and (max-width: 685px) {
+        .myskills .skill{
+        width: 90%;
+        }
     }
     .myskills .skill .skills strong {
     font-size : 20px;
@@ -310,37 +297,37 @@
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
     border-top-style : solid;
-    width : 75%;
+    width : 85%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-css {
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
     border-top-style : solid;
-    width : 70%;
+    width : 80%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-js {
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
     border-top-style : solid;
-    width : 55%;
+    width : 70%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
-    .myskills .skill .line-bars .line-persen-php {
+    .myskills .skill .line-bars .line-persen-laravel {
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
     border-top-style : solid;
-    width : 30%;
+    width : 60%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-mcs {
     border-top-left-radius : 10px;
@@ -348,8 +335,8 @@
     border-top-style : solid;
     width : 75%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-adb {
     border-top-left-radius : 10px;
@@ -357,44 +344,44 @@
     border-top-style : solid;
     width : 55%;
     border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 0px 3px white;
+    border-color : white;
+    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-html {
     border-top-right-radius : 10px;
     border-bottom-right-radius : 10px;
     border-top-style : solid;
-    width : 25%;
+    width : 15%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-css {
     border-top-right-radius : 10px;
     border-bottom-right-radius : 10px;
     border-top-style : solid;
-    width : 30%;
+    width : 20%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-js {
     border-top-right-radius : 10px;
     border-bottom-right-radius : 10px;
     border-top-style : solid;
-    width : 45%;
+    width : 30%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
-    .myskills .skill .line-bars .line-kosong-php {
+    .myskills .skill .line-bars .line-kosong-laravel {
     border-top-right-radius : 10px;
     border-bottom-right-radius : 10px;
     border-top-style : solid;
-    width : 70%;
+    width : 40%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-mcs {
     border-top-right-radius : 10px;
@@ -402,8 +389,8 @@
     border-top-style : solid;
     width : 25%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-adb {
     border-top-right-radius : 10px;
@@ -411,8 +398,8 @@
     border-top-style : solid;
     width : 45%;
     border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 3px 1px white;
+    border-color : #2b3035;
+    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .experience {
     padding-top : 5%;
@@ -439,8 +426,13 @@
     display : flex;
     align-items : center;
     }
+    @media screen and (max-width: 685px) {
+        .slide-container{
+        width: 90%;
+        }
+    }
     .slide-content {
-    margin : 0 40px;
+    margin : 0 20px;
     }
     .card {
     /* z-index: ; */
@@ -621,4 +613,37 @@
     }
     footer p a:hover{
     color: #2b3035;
+    }
+    .project{
+    background-color: #2b3035;
+    padding-top : 5%;
+    padding-bottom : 5%;
+    width: 100%; 
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    }
+    .slide-project{
+    width: 80%; 
+    max-width: 1120px;
+    }
+    .div-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2b3035; 
+    opacity: 0.5;
+    }
+    .foto-project{
+    border-radius: 20px;
+    width: calc(100% - 10px);
+    box-shadow: 0 0 5px 1px white;
+    }
+    @media screen and (max-width: 685px) {
+        .slide-project{
+        width: 90%;
+        }
     }
