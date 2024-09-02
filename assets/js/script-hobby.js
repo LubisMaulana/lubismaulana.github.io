@@ -259,7 +259,7 @@ function showMore(number){
     typed1 = new Typed(".content", {
       strings: ["Karya terbaik tuhan tampak begitu </br>cantik dengan senyumnya </br>Tingkah unik dengan hal misterius </br>menjadi daya tariknya </br>Tak hanya makhluk hidup,</br>semesta juga kagum oleh parasnya</br>Tak ada kata yang mampu </br>menggantikan keindahannya</br>Dan angka pun tak sanggup </br>menampung semua nilainya</br>Bahkan bidadari sedikit cemburu </br>dibuat oleh kehadirannya"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -274,7 +274,7 @@ function showMore(number){
     typed1 = new Typed(".content", {
       strings: ["Kata-kata yang tak bermakna keluar</br>seakan disengaja</br>Menarik perhatian, hingga dikira</br>sangat merusak suasana</br>Mencoba obrolan lain agar</br>terhindar dari cibiran sekitarnya</br>Namun mata yang sinis sudah</br>tertuju hanya pada dirinya</br>Menunduk tuk merasa lebih baik,</br>tapi tidak seperti nyatanya</br>Bukan cibiran, tapi suasana yang</br>memojokkan kehadirannya"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -290,23 +290,7 @@ function showMore(number){
       strings: ["Pribadi yang tidak menjadi</br>keinginan dan bahagiamu</br>Masih kau anggap anak untukmu di</br>setiap harimu</br>Doa indahmu hadir sebagai sosok</br>pelindung untukku</br>Berpuluhan tahun sudah menemani</br>hari-hariku</br>", 
       "Betapa bodoh diriku yang tak</br>bahagia dengan keinginanmu</br>Meski aku tau bahagia untukku</br>dalam harapanmu</br>Maafkan aku yang tak mampu jadi</br>doa dan harapanmu</br>Walau sudah kau percayakan</br>bahagia tuk masa depanku"],
       typeSpeed: 100,
-      backSpeed: 50,
-      loop: true,
-      cursorChar: ""
-    })
-  }else if(number == 4){
-    if (typed1) {
-      typed1.destroy();
-    }
-    bg.style.display = "flex";
-    document.querySelector('.title-bg').innerText = "Batas Kagum";
-    document.querySelector('.author-bg').innerText = "Oleh : Lubis";
-    img.style.backgroundImage ='url(../assets/image/bg-hobby4.webp)';
-    typed1 = new Typed(".content", {
-      strings: ["Begitu rapuhnya diriku, namun</br>beginilah adanya aku</br>Sekadar mengarungi mimpi tentang</br>paras menawanmu</br>Begitulah caraku bahagia, meski</br>terlihat sangat sederhana</br>Senyummu yang memancar, dipanah</br>aku oleh pesonamu",
-      "Meski panah yang masih tertancap</br>amat dalam di dadaku</br>Secara paksa dilepaskan oleh takdir</br>yang telah kau pilih</br>Namun aku tetap diriku, meski</br>tak seperti yang lalu</br>Hingga air matamu saja masih</br>mampu melukai hati ini"],
-      typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -323,7 +307,7 @@ function showMore(number){
       "Usaha yang masih lelah sontak</br>terbangun dari tidurnya</br>Hati yang bimbang hanya berikan</br>senyuman untuknya</br>Bahkan masa lalu berbalik arah,</br>hingga terdiam sejenak",
       "Tak sadar akan perbuatannya,</br>ia berbisik pada jiwa yang letih</br>Sehingga jiwa tertawa geli dengan</br>luka yang masih menggigit</br>Menjawab dengan pelan, \"sudah</br>pernah dan gagal berkali-kali\""],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -339,7 +323,7 @@ function showMore(number){
       strings: ["Aku bujangga, seorang petualang</br>di dunia yang menderang</br>Melangkah dalam terang jalan</br>yang tak sejalan</br>Mengendus langkah untuk meraba</br>jalanku</br>Menjelma seperti robot,</br>beradaptasi pada kata kata yang</br>tak bersahabat",
       "Perlahan menjalar mengikat jiwa</br>tanpa kebebasan</br>Setetes demi setetes air jatuh dari</br>perjuangan tanpa henti</br>Hingga lelah mematahkan raga yang</br>ku inginkan</br>Menggantikan mimpi dengan cahaya</br>yang tak sepadan"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -355,7 +339,7 @@ function showMore(number){
       strings: ["Mereka yang ada maupun tiada,</br>terhembus oleh harapan</br>Air mata yang begitu jernih</br>mengalir dari ketulusan</br>Jiwa yang tak tenang menunggu</br>angin tuk meyakinkan</br>Seakan tak percaya, semua</br>terdiam mendengar ketukan",
       "Naik dan turun sudah terbiasa</br>terlihat jelas oleh mata</br>Kadang kata syukur terdengar</br>keras diiringi air mata</br>Tak jarang telinga mendengar</br>\"beragam tanda tanya\"</br>Tak jarang juga air mata</br>mengalir ditemani oleh duka</br></br>Hingga penyesalan, harapan bahkan</br>kenangan dibalut rapi oleh kepergian"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -368,10 +352,10 @@ function showMore(number){
     document.querySelector('.author-bg').innerText = "Oleh : Lubis";
     img.style.backgroundImage ='url(../assets/image/bg-hobby8.webp)';
     typed1 = new Typed(".content", {
-      strings: ["Tak tau sudah berapa lama ku</br>terjabak disini</br>Sesak dan takut, ku mencoba</br>tuk menguasai diri</br>Hingga kegelapan telah membutakan</br>pandangan ini</br>Bahkan keliru menghalangi jalanku</br>tuk menuju mimpi</br>",
-      "Terdiam dalam jangka waktu/br>yang tak terduga<</br>Mungkin hanya satu hal yang</br>terpikiran saat ini</br>Berdiam dan menanti datangnya</br>secercah cahaya"],
+      strings: ["Tak tau, tlah berapa lama ku</br>terjabak disini</br>Sesak dan takut, ku mencoba</br>tuk menguasai diri</br>Hingga kegelapan telah membutakan</br>kuatnya ambisi</br>Bahkan keliru menghalangi jalanku</br>tuk menuju mimpi</br>",
+      "Terdiam dalam jangka waktu</br>yang tak terduga<</br>Mungkin hanya satu hal yang</br>terpikiran saat ini</br>Berdiam dan menanti datangnya</br>secercah cahaya"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })
@@ -384,9 +368,9 @@ function showMore(number){
     document.querySelector('.author-bg').innerText = "Oleh : Lubis";
     img.style.backgroundImage ='url(../assets/image/bg-hobby9.webp)';
     typed1 = new Typed(".content", {
-      strings: ["Perasaan yang tak slalu terikat</br>olehnya</br>Berikan makna begitu dalam</br>karenanya</br>Satu ataupun lebih darinya</br></br>Sangat beragam rasa dibuat</br>olehnya</br>Bahkan bahagia aku mendengarnya</br>Hingga terluka karnanya"],
+      strings: ["Perasaan yang tak slalu terikat</br>olehnya</br>Berikan makna begitu dalam</br>karenanya</br>Satu bahkan beberapa darinya</br></br>Berbagai ragam rasa dibuat</br>olehnya</br>Bahkan bahagia aku mendengarnya</br>Hingga terluka karnanya"],
       typeSpeed: 100,
-      backSpeed: 50,
+      backSpeed: 10,
       loop: true,
       cursorChar: ""
     })

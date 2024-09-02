@@ -3,7 +3,7 @@
     padding : 0;
     }
     html {
-    width : 100%;
+    width : 100vw;
     overflow-x : hidden;
     }
     nav > div > div > ul > li {
@@ -293,113 +293,59 @@
     width : 100%;
     padding-bottom : 20px;
     }
-    .myskills .skill .line-bars .line-persen-html {
+    .myskills .skill .line-bars * {
     border-top-left-radius : 10px;
     border-bottom-left-radius : 10px;
     border-top-style : solid;
-    width : 85%;
     border-width : 10px;
     border-color : white;
     box-shadow : 0px 0px 0px 3px #2b3035;
+    }
+
+    .myskills .skill .line-bars .line-persen-html {
+    width : 85%;
     }
     .myskills .skill .line-bars .line-persen-css {
-    border-top-left-radius : 10px;
-    border-bottom-left-radius : 10px;
-    border-top-style : solid;
     width : 80%;
-    border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 0px 3px #2b3035;
     }
-    .myskills .skill .line-bars .line-persen-js {
-    border-top-left-radius : 10px;
-    border-bottom-left-radius : 10px;
-    border-top-style : solid;
+    .myskills .skill .line-bars .line-persen-js,
+    .myskills .skill .line-bars .line-persen-laravel,
+    .myskills .skill .line-bars .line-persen-go {
     width : 70%;
-    border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 0px 3px #2b3035;
-    }
-    .myskills .skill .line-bars .line-persen-laravel {
-    border-top-left-radius : 10px;
-    border-bottom-left-radius : 10px;
-    border-top-style : solid;
-    width : 60%;
-    border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-mcs {
-    border-top-left-radius : 10px;
-    border-bottom-left-radius : 10px;
-    border-top-style : solid;
     width : 75%;
-    border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 0px 3px #2b3035;
     }
     .myskills .skill .line-bars .line-persen-adb {
-    border-top-left-radius : 10px;
-    border-bottom-left-radius : 10px;
-    border-top-style : solid;
     width : 55%;
-    border-width : 10px;
-    border-color : white;
-    box-shadow : 0px 0px 0px 3px #2b3035;
+    }
+    .myskills .skill .line-bars .line-kosong-js,
+    .myskills .skill .line-bars .line-kosong-laravel,
+    .myskills .skill .line-bars .line-kosong-go,
+    .myskills .skill .line-bars .line-kosong-html,
+    .myskills .skill .line-bars .line-kosong-css,
+    .myskills .skill .line-bars .line-kosong-mcs,
+    .myskills .skill .line-bars .line-kosong-adb {
+    border-color : #2b3035;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius : 10px;
     }
     .myskills .skill .line-bars .line-kosong-html {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
     width : 15%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-css {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
     width : 20%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
     }
-    .myskills .skill .line-bars .line-kosong-js {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
+    .myskills .skill .line-bars .line-kosong-js,
+    .myskills .skill .line-bars .line-kosong-laravel,
+    .myskills .skill .line-bars .line-kosong-go {
     width : 30%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
-    }
-    .myskills .skill .line-bars .line-kosong-laravel {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
-    width : 40%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-mcs {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
     width : 25%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .myskills .skill .line-bars .line-kosong-adb {
-    border-top-right-radius : 10px;
-    border-bottom-right-radius : 10px;
-    border-top-style : solid;
     width : 45%;
-    border-width : 10px;
-    border-color : #2b3035;
-    box-shadow : 0px 0px 3px 1px #2b3035;
     }
     .experience {
     padding-top : 5%;
