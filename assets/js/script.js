@@ -17,7 +17,7 @@ var typed = new Typed(".text-welcome", {
 
 // Animasi ketik di home
 var typed = new Typed(".typing", {
-  strings: ["mahasiswa semester 7", "manusia biasa", "pengejar cita-cita"],
+  strings: ["Web Developer", "Back-End Developer", "Full-Stack Developer"],
   typeSpeed: 200,
   backSpeed: 200,
   loop:  true
